@@ -1,0 +1,78 @@
+* {
+  font-family: "AvenirNext", "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+}
+  
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.sign-up {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  height: 60px;
+  padding: 10px 0;
+}
+
+.logos-header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 75px;
+}
+
+.intuit-link {
+  position: relative;
+  display: flex;
+  height: 35px;
+  padding: 20px 0;
+}
+
+.intuit-img {
+  display: block;
+  object-fit: contain;
+}
+
+.centered-sub-logos {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 25px;
+  width: 100%;
+  padding: 1px;
+}
+
+.logo-text {
+  color: #72737a;
+  font-size: 1.2rem;
+  margin: 0 0 0 5px;
+  height: 22px;
+}
+
+.mint-link {
+  position: relative;
+  display: flex;
+  height: 23px;
+}
+
+.quickbooks-link {
+  position: relative;
+  display: flex;
+  height: 23px;
+}
+
+.turbotax-link {
+  position: relative;
+  display: flex;
+  height: 23px;
+}
+
+.sign-up-form {
+  position: relative;
+  display: flex;
+  height: 65%;
+}
