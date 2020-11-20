@@ -1,19 +1,46 @@
 * {
   font-family: "AvenirNext", "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-decoration: none;
-}
-  
-html, body {
-  height: 100%;
   margin: 0;
+}
+
+body, html {
+  height: 100%;
 }
 
 .sign-up {
   position: relative;
   display: flex;
+  background: #eceef1;
   justify-content: flex-end;
   height: 60px;
   padding: 10px 0;
+  font-size: .9rem;
+  color: #8d9096;
+}
+
+.forgot-a {
+  color: #1883c9;
+}
+
+.sign-in-button {
+  display: flex;
+  height: 34px;
+  width: 104px;
+  font-size: .9rem;
+  color: white;
+  border-radius: 4px;
+  border: solid 1px #4c4c4c;
+  background-color: #0077c5;
+  margin: 0 10px 0 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.lock-icon {
+  margin-right: 10px;
+  margin-left: 10px;
+  height: 50%;
 }
 
 .logos-header {
@@ -21,35 +48,37 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 75px;
+  height: 100px;
+  background: #eceef1;
 }
 
 .intuit-link {
   position: relative;
   display: flex;
-  height: 35px;
-  padding: 20px 0;
+  height: 100px;
 }
 
 .intuit-img {
-  display: block;
   object-fit: contain;
 }
 
 .centered-sub-logos {
   position: relative;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: flex-start;
   height: 25px;
   width: 100%;
   padding: 1px;
+  background: #eceef1;
 }
 
 .logo-text {
+  position: relative;
+  display: flex;
   color: #72737a;
   font-size: 1.2rem;
-  margin: 0 0 0 5px;
+  margin: 0 30px 0 5px;
   height: 22px;
 }
 
@@ -71,8 +100,22 @@ html, body {
   height: 23px;
 }
 
+.page-body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  background: #eceef1;
+}
+
 .sign-up-form {
   position: relative;
   display: flex;
-  height: 65%;
+  width: 318px;
+  height: 592px;
+  padding: 30px;
+  border: solid 1px #c7c7c7;
+  border-radius: 2px;
+  justify-content: center;
+  background: white;
 }
